@@ -2092,7 +2092,7 @@ a.button {
 }
 
 .close:hover {
-  color: #ff0000;
+  color: #ddd;
 }
 
 .announcement-content img {
@@ -2102,4 +2102,11 @@ a.button {
   margin: 0 auto;
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .announcement-content img {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
